@@ -1,2 +1,2 @@
 # Simulation-of-Topology
-This is used to show simulation of topologies
+Above Program is done to show the simulation of Star and Ring Topology using C Programming Language.
