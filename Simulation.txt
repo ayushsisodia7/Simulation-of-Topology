@@ -1,0 +1,384 @@
+#include<stdio.h>
+#include<conio.h>
+#include<graphics.h>
+#include<dos.h>
+#include<windows.h>
+class star
+{
+public:
+
+void star1()
+
+{  int i;
+
+    settextstyle(0,HORIZ_DIR,4); 
+    outtextxy(550,830,"STAR TOPOLOGY");     
+    settextstyle(0,HORIZ_DIR,4);  
+    outtextxy(703,410,"HUB");     
+    rectangle(700,400,800,450);   //CENTRAL BOX HUB
+	
+	setcolor(WHITE);
+	line(750,250,750,400);
+	line(800,400,950,250);
+	line(700,400,550,250);
+	line(800,425,950,425);
+	line(550,425,700,425);
+	line(750,450,750,600);
+	    
+    setcolor(2);        
+    rectangle(650,50,850,200);    //green
+    line(740,200,740,250);
+    line(760,200,760,250);
+    line(700,250,800,250);
+	
+    setcolor(3);        
+    rectangle(950,100,1150,250);  //blue
+    line(1040,250,1040,300);
+    line(1060,250,1060,300);
+    line(1000,300,1100,300);
+
+    setcolor(6);       
+    rectangle(350,100,550,250);  //orange
+    line(440,250,440,300);
+    line(460,250,460,300);
+    line(400,300,500,300);
+
+    setcolor(5);     
+    rectangle(950,350,1150,500);   //violet
+    line(1040,500,1040,550);
+    line(1060,500,1060,550);
+    line(1000,550,1100,550);
+
+    setcolor(4);    
+    rectangle(350,350,550,500);   //red
+    line(440,500,440,550);
+    line(460,500,460,550);
+    line(400,550,500,550);
+
+    setcolor(14); 
+    rectangle(650,600,850,750);    //yellow
+    line(740,750,740,800);
+    line(760,750,760,800);
+    line(700,800,800,800);
+
+    for(i=0;i<=150;i++)
+    {
+        setcolor(2);
+        circle(750,250+i,3);   //green
+        delay(10);
+     }
+    for(i=0;i<=150;i++)
+    {
+    	setcolor(2);
+        circle(750,450+i,3);    //yellow
+        delay(5);
+    }
+    for(i=0;i<=150;i++)
+    {
+        setcolor(WHITE);
+        circle(750,250+i,3);  
+        delay(10);
+     }
+    for(i=0;i<=150;i++)
+    {
+    	setcolor(WHITE);
+        circle(750,450+i,3);
+        delay(5);
+    }
+    for(i=0;i<=150;i++)
+    {
+    	setcolor(5);
+        circle(950-i,425,3);   //violet
+        delay(5);
+    }
+    for(i=0;i<=150;i++)
+    {
+    	setcolor(5);
+        circle(700-i,400-i,3);   //orange
+        delay(5);
+    }
+    for(i=0;i<=150;i++)
+    {
+    	setcolor(WHITE);
+        circle(950-i,425,3);  
+        delay(5);
+    }
+    for(i=0;i<=150;i++)
+    {
+    	setcolor(WHITE);
+        circle(700-i,400-i,3);  
+        delay(5);
+    }
+    for(i=0;i<=150;i++)
+    {
+    	setcolor(4);
+        circle(550+i,425,3);   //red
+        delay(5);
+    }
+    for(i=0;i<=150;i++)
+    {
+    	setcolor(4);
+        circle(800+i,400-i,3);    //blue
+        delay(5);
+    }
+    for(i=0;i<=150;i++)
+    {
+    	setcolor(WHITE);
+        circle(550+i,425,3);
+        delay(5);
+    }
+    for(i=0;i<=150;i++)
+    {
+    	setcolor(WHITE);
+        circle(800+i,400-i,3);    
+        delay(5);
+    }
+}
+
+
+void star2()
+{  
+	int i;
+    settextstyle(0,HORIZ_DIR,3);
+    outtextxy(200,425,"If a PC");     
+    outtextxy(180,475,"is Removed!");     
+    settextstyle(0,HORIZ_DIR,4);  
+    outtextxy(703,410,"HUB");     
+    setbkcolor(RED);
+    settextstyle(0,HORIZ_DIR,4);
+    outtextxy(550,830,"STAR TOPOLOGY");                   
+
+    rectangle(700,400,800,450);   //CENTRAL BOX HUB
+    setcolor(2);
+    line(750,250,750,400);        
+    rectangle(650,50,850,200);    //green
+    line(740,200,740,250);
+    line(760,200,760,250);
+    line(700,250,800,250);
+
+    setcolor(4);  
+    line(700,400,550,250);      //red
+    rectangle(350,100,550,250);
+    line(440,250,440,300);
+    line(460,250,460,300);
+    line(400,300,500,300);
+
+    setcolor(5);
+    line(800,425,950,425);     //violet
+    rectangle(950,350,1150,500);
+    line(1040,500,1040,550);
+    line(1060,500,1060,550);
+    line(1000,550,1100,550);
+    
+    setcolor(8);
+	line(750,450,750,600); 
+    rectangle(650,600,850,750);    //grey
+    line(740,750,740,800);
+    line(760,750,760,800);
+    line(700,800,800,800);
+
+    for(i=0;i<=150;i++)
+    {
+        setcolor(2);
+        circle(750,250+i,3);   //green
+        delay(10);
+     }
+    for(i=0;i<=150;i++)
+    {
+    	setcolor(2);
+        circle(750,450+i,3);    //yellow
+        delay(5);
+    }
+    for(i=0;i<=150;i++)
+    {
+        setcolor(WHITE);
+        circle(750,250+i,3);  
+        delay(10);
+     }
+    for(i=0;i<=150;i++)
+    {
+    	setcolor(WHITE);
+        circle(750,450+i,3);
+        delay(5);
+    }
+    for(i=0;i<=150;i++)
+    {
+    	setcolor(5);
+        circle(950-i,425,3);   //violet
+        delay(5);
+    }
+    for(i=0;i<=150;i++)
+    {
+    	setcolor(5);
+        circle(700-i,400-i,3);   //orange
+        delay(5);
+    }
+    for(i=0;i<=150;i++)
+    {
+    	setcolor(WHITE);
+        circle(950-i,425,3);  
+        delay(5);
+    }
+    for(i=0;i<=150;i++)
+    {
+    	setcolor(WHITE);
+        circle(700-i,400-i,3);  
+        delay(5);
+    }
+	getch();
+ }  
+};
+
+
+class ring
+{
+public:
+void ring1()
+{   int i;
+	settextstyle(0,HORIZ_DIR,4); 
+	//setbkcolor(RED);
+    outtextxy(700,350,"RING");     
+    outtextxy(640,400,"TOPOLOGY");     
+
+    setcolor(2);       
+    rectangle(650,50,850,200);    //green
+    line(740,200,740,250);
+    line(760,200,760,250);
+    line(700,250,800,250);
+
+    setcolor(6);
+    rectangle(350,325,550,475);  //red
+    line(440,475,440,525);
+    line(460,475,460,525);
+    line(400,525,500,525);
+
+    setcolor(14);
+    rectangle(950,325,1150,475);  //yellow
+    line(1040,475,1040,525);
+    line(1060,475,1060,525);
+    line(1000,525,1100,525);
+
+    setcolor(5);
+    rectangle(650,650,850,800);    //violet
+    line(740,800,740,850);
+    line(760,800,760,850);
+    line(700,850,800,850);
+
+    for(i=1;i<=90;i++)
+    {  
+        setcolor(2);
+        arc(650,325,90,90+i,200);
+        delay(30);
+    }
+    for(i=1;i<=90;i++)
+    {  
+        setcolor(6);
+        arc(650,525,180,180+i,200);
+        delay(30);
+    }
+    for(i=1;i<=90;i++)
+    {
+        setcolor(5);
+        arc(850,525,270,270+i,200);
+        delay(30);
+    }
+    for(i=1;i<=90;i++)
+    {
+        setcolor(14);
+        arc(850,325,0,0+i,200);
+        delay(30);
+    }    
+} 
+
+void ring2()
+
+{   
+    int i;
+    settextstyle(0,HORIZ_DIR,4);
+    outtextxy(200,100,"IF A PC IS");     
+    outtextxy(210,150,"REMOVED!");     
+    settextstyle(0,HORIZ_DIR,4); 
+    //setbkcolor(RED);
+    outtextxy(700,350,"RING");         
+    outtextxy(640,400,"TOPOLOGY");     
+
+    setcolor(2);       
+    rectangle(650,50,850,200);    //green
+    line(740,200,740,250);
+    line(760,200,760,250);
+    line(700,250,800,250);
+
+    setcolor(6);
+    rectangle(350,325,550,475);  //orange
+    line(440,475,440,525);
+    line(460,475,460,525);
+    line(400,525,500,525);
+
+    setcolor(5);
+    rectangle(650,650,850,800);    //violet
+    line(740,800,740,850);
+    line(760,800,760,850);
+    line(700,850,800,850);
+
+    for(i=1;i<=90;i++)
+    {  
+        setcolor(2);
+        arc(650,325,90,90+i,200);  //green to orange
+        delay(30);
+    }
+    for(i=1;i<=90;i++)
+    {  
+        setcolor(6);
+        arc(650,525,180,180+i,200);   //orange to violet
+        delay(30);
+    }
+    getch();
+}
+};
+
+main()
+{
+int gd=DETECT,gm,i,x,y;
+
+int n,a;
+ring r;
+star s;
+printf("Press 1 for star topology or 2 for ring topology\n");
+scanf("%d",&a);
+switch(a)
+{
+case 1:
+initgraph(&gd, &gm, "C:\\TC\\BGI");
+s.star1();
+closegraph();
+printf("Press 1 to continue\n");
+scanf("%d", &n);
+if (n==1)
+{
+cleardevice();
+gd=DETECT;
+initgraph(&gd, &gm, "C:\\TC\\BGI");
+s.star2();
+closegraph();
+}
+break;
+case 2:
+gd=DETECT;
+
+initgraph(&gd, &gm, "C:\\TC\\BGI");
+r.ring1();
+closegraph();
+printf("Press 1 to continue\n");
+scanf("%d", &n);
+
+if(n==1)
+{
+cleardevice();
+gd=DETECT;
+initgraph(&gd, &gm, "C:\\TC\\BGI");
+r.ring2();
+closegraph ();
+}
+break;
+}
+}
